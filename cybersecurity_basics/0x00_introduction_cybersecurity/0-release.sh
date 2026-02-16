@@ -1,3 +1,3 @@
 #!/bin/bash
-lsb_release -is | head -n 1
+lsb_release -is 
 
