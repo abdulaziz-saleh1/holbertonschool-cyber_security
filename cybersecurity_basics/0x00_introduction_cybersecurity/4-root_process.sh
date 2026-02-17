@@ -1,2 +1,2 @@
 #!/bin/bash
-ps -u "$1" -o user,pid,%cpu,%mem,vsz,rss,tty,stat,start,time,cmd --no-headers | grep -v '[[:space:]]0[[:space:]]\{1,\}0[[:space:]]'
+ps -u "$1" u | grep -v '^USER' | grep -v '[[:space:]]0[[:space:]]\{1,\}0[[:space:]]'
