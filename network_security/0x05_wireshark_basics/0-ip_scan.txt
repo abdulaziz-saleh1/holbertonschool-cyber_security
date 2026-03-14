@@ -1,1 +1,1 @@
-ip.proto == 20
+ip.proto == 1
